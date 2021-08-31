@@ -1,0 +1,7 @@
+fuzzywuzzy
+pyaudio #sudo apt-get install python3-pyaudio
+playsound
+googlesearch-python
+gtts
+SpeechRecognition
+setproctitle
