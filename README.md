@@ -13,9 +13,8 @@ Python3
 ## How to USE?
 1. Download the source code (or clone) to your computer.
 2. Run install.py from source. This installs required packages for Veronica
-    ```
-    There may be many errors as this utilises snowboy, a depreciated package.
-    ```
+
+    ```There may be many errors as this utilises snowboy, a depreciated package.```
 3. Run veronica.py. You are good to go. 
 
 ## Working
@@ -27,7 +26,10 @@ Python3
 Run this code in terminal which gives you an interface to record voice and create pmdl file.You must have docker installed.
 > Make sure you choose a noiseless environment to prevent triggering false positives.  
   
-   ```docker run -it -p 8000:8000 rhasspy/snowboy-seasalt```
+   ```
+   docker run -it -p 8000:8000 rhasspy/snowboy-seasalt
+   ```
+   
  This script is developed by rhasspy and link is given below.
   https://github.com/rhasspy/snowboy-seasalt
 
