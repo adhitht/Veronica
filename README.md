@@ -35,6 +35,9 @@ Run this code in terminal which gives you an interface to record voice and creat
 
 __After getting the pmdl file rename it to ```veronica.pmdl``` and save it in models directory in the source you have downloaded (or cloned). This is a must for wake word to work correctly__
 
+## Why is it asking for password
+ Veronica asks for password so that it can check if user presses F8. Veronica utilised keyboard module from python which needs root permission for checking keyboard events.It does not store or send any keyboard event, just checks if F8 is pressed. 
+
 ## Wake Word is not recognising 
 * Make sure you have working microphone
 * Make pmdl file properly. While making pmdl you should make sure it had included the wake word you said.
@@ -60,4 +63,6 @@ You can add your personal command.For that,
 3. This will add a function which will be triggered by commands with resemblence to commands list.
 
 
- 
+ ## To-Do 
+ - [] Bring GUI .
+ - [] Support for To-Do list.
