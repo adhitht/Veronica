@@ -2,7 +2,7 @@ import speech_recognition as sr
 from playsound import playsound
 import os
 import inspect
-currentpath = os.path.dirname(os.path.abspath(inspect.stack()[0][1])) 
+current_path = os.path.dirname(os.path.abspath(inspect.stack()[0][1])) 
 
 def speechtotext():
     current_path = os.getcwd()
