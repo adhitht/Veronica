@@ -64,5 +64,5 @@ You can add your personal command.For that,
 
 
  ## To-Do 
- - [] Bring GUI .
- - [] Support for To-Do list.
+ - [ ] Bring GUI
+ - [ ] Support for To-Do list
