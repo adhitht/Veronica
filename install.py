@@ -1,7 +1,7 @@
 import os
 import inspect
 import shutil
-
+import subprocess
 currentpath = os.path.dirname(os.path.abspath(inspect.stack()[0][1])) 
 
 print("Installing dependencies for pyaudio")
