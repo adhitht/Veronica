@@ -13,10 +13,18 @@ os.system("sudo apt-get install libatlas-base-dev libmagic-dev")
 print("installing sox and pyaudio")
 os.system("sudo apt-get install sox python3-pyaudio")
 
-print("Now open terminal and go to "+currentpath+"/snowboy/swig/Python3 (using cd or going to path in nautilus and opening with terminal). type \"make\" in terminal.")
-kk = input("Press Enter if you have done that. (Now or Earlier)")
+print("Initialising Snowboy")
+subprocess.Popen(["make"], stdout=subprocess.PIPE, cwd=currentpath+"/snowboy/swig/Python3")
 
 shutil.copy2(os.path.join(currentpath,"snowboy/swig/Python3/_snowboydetect.so"), currentpath)
 shutil.copy2(os.path.join(currentpath,"snowboy/swig/Python3/snowboydetect.py"), currentpath)
 
 os.system("pip3 install -r requirements.txt")
+
+print('''Veronica is now ready to be used
+Before that make sure that you have obtained pmdl file from docker and had pasted in \"models\" folder.''')
+from tts import veronicatts
+try:
+  veronicatts("Hello, Good to see you")
+except:
+  print("There's some problem")
