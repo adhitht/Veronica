@@ -14,7 +14,7 @@ print("installing sox and pyaudio")
 os.system("sudo apt-get install sox python3-pyaudio")
 
 print("Initialising Snowboy")
-subprocess.Popen(["make"], stdout=subprocess.PIPE, cwd=currentpath+"/snowboy/swig/Python3")
+subprocess.call(["make"], stdout=subprocess.PIPE, cwd=currentpath+"/snowboy/swig/Python3")
 
 shutil.copy2(os.path.join(currentpath,"snowboy/swig/Python3/_snowboydetect.so"), currentpath)
 shutil.copy2(os.path.join(currentpath,"snowboy/swig/Python3/snowboydetect.py"), currentpath)
