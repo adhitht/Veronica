@@ -1,8 +1,10 @@
 
 
 # Veronica
-
-[![CodeFactor](https://www.codefactor.io/repository/github/adhitht123/veronica/badge)](https://www.codefactor.io/repository/github/adhitht123/veronica)
+[![GitHub issues](https://img.shields.io/github/issues/adhitht123/Veronica?style=for-the-badge)](https://github.com/adhitht123/Veronica/issues)
+[![GitHub forks](https://img.shields.io/github/forks/adhitht123/Veronica?style=for-the-badge)](https://github.com/adhitht123/Veronica/network)
+[![GitHub license](https://img.shields.io/github/license/adhitht123/Veronica?style=for-the-badge)](https://github.com/adhitht123/Veronica/blob/main/LICENSE)
+[![CodeFactor](https://www.codefactor.io/repository/github/adhitht123/veronica/badge?style=for-the-badge)](https://www.codefactor.io/repository/github/adhitht123/veronica)
 
 Personal Assistant for Linux.
 
