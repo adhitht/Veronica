@@ -1,4 +1,9 @@
+
+
 # Veronica
+
+[![CodeFactor](https://www.codefactor.io/repository/github/adhitht123/veronica/badge)](https://www.codefactor.io/repository/github/adhitht123/veronica)
+
 Personal Assistant for Linux.
 
 ## Supports
