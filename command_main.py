@@ -1,9 +1,8 @@
 from fuzzywuzzy import process
 from playsound import playsound
 #DEMO
-'''
-1:{"commands":[],"func":""},
-'''
+#1:{"commands":[],"func":""},
+
 command_dict={
     0:{"commands":["hai","hello","how are you"], "func":"greet"},
     1:{"commands":["search for website","search for site"],"func":"searchforwebsite"},
@@ -25,8 +24,7 @@ def getcommand(txt):
     if match_percent > 85:
         if command in special_commands:
             command = command+"(\"{tx}\")".format(tx=txt)
-        else:
-            command = command+"()"
+        command = command+"()"
         return command, finaldetail
     else:
         return None
