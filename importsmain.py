@@ -1,8 +1,8 @@
 import threading
 import subprocess
 import inspect
+import distro
 from datetime import datetime 
-import keyboard
 import setproctitle
 #from fuzzywuzzy import process
 from playsound import playsound
@@ -25,5 +25,4 @@ from functions import *
 from command_main import getcommand
 from speectotext import speechtotext
 from search_app import get_app
-import distro
 

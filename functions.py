@@ -38,3 +38,6 @@ def get_time():
 #NO.4
 def lock_my_pc():
     subprocess.Popen("gnome-screensaver-command -l".split())
+
+def didntfetch():
+    veronicatts("Sorry, Couldn't get that")

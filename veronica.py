@@ -35,7 +35,6 @@ def logging(*text):
             logfile.write(i)
 
 #LOGGING DETAILS SUCH AS START TIME,TIME ZONE,....
-print(type(logfilepath))
 with open(logfilepath,"a+") as logfile:
     logging("\n\nStart Time: ",
     datetime.now().strftime("%d %b %Y %I:%M:%S %p").rjust(24),
@@ -44,7 +43,6 @@ with open(logfilepath,"a+") as logfile:
 
 def get_pid(name):
     return subprocess.check_output(["pidof",name])
-
 
 try:
     count = 0
@@ -84,8 +82,8 @@ def keypress():
 
 def keypress_detect():
     while True:
-        with open("keypress.txt","r") as f:
-            if f.readline() == "True":
+        with open("keypress.txt","r") as file:
+            if file.readline() == "True":
                 after_detection()
 
 def detector_snowboy():
