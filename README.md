@@ -64,5 +64,4 @@ You can add your personal command.For that,
 
 
  ## To-Do 
- - [ ] Bring GUI
- - [ ] Support for To-Do list
+ - [ ] Complete revamp needed with MCP (may be something like spotlight??)
